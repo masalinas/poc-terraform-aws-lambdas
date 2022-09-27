@@ -22,8 +22,6 @@ Apply the changes required to reach the desired state of the configuration using
 
 ```sh
 terraform apply -var 'aws_profile=mango' -var 'environment=v1'
-
-terraform plan -var 'aws_profile=default' -var 'aws_region=us-east-2' -var 'environment=v1'
 ```
 
 Apply the changes required to reach the desired state of the configuration using the following command
